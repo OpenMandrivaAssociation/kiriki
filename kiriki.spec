@@ -1,0 +1,41 @@
+Name:		kiriki
+Version:	4.10.0
+Release:	1
+Epoch:		1
+Summary:	Close of Yahtzee
+Group:		Graphical desktop/KDE
+License:	GPLv2 and LGPLv2 and GFDL
+URL:		http://games.kde.org/game.php?game=kiriki
+Source:		ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
+BuildRequires:	libkdegames-devel
+
+%description
+Kiriki is an addictive and fun dice game, designed to be played by as
+many as six players.
+
+Participants have to collect points by rolling five dice for up to
+three times per single turn.
+
+%files
+%{_kde_bindir}/kiriki
+%{_kde_applicationsdir}/kiriki.desktop
+%{_kde_docdir}/*/*/kiriki
+%{_kde_iconsdir}/hicolor/*/apps/kiriki.png
+%{_kde_appsdir}/kiriki
+
+#------------------------------------------------------------------------------
+
+%prep
+%setup -q
+
+%build
+%cmake_kde4
+%make
+
+%install
+%makeinstall_std -C build
+
+%changelog
+* Wed Feb 13 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.0-1
+- Split from kdegames4 package
+
