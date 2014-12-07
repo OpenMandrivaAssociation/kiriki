@@ -1,6 +1,6 @@
 Name:		kiriki
 Version:	4.14.3
-Release:	1
+Release:	2
 Epoch:		1
 Summary:	Close of Yahtzee
 Group:		Graphical desktop/KDE
