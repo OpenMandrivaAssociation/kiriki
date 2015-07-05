@@ -1,5 +1,5 @@
 Name:		kiriki
-Version:	15.04.2
+Version:	15.04.3
 Release:	1
 Epoch:		1
 Summary:	Close of Yahtzee
