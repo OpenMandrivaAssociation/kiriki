@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   kiriki-15.08.0.tar.xz: f604ba8642717464db16709edeb5ac2d0ead0554
+sources:
+  kiriki-15.08.1.tar.xz: 31e0f89f639010dec87c07a69e94a3bba8d2e925
