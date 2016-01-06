@@ -34,6 +34,14 @@ three times per single turn.
 %{_datadir}/applications/org.kde.kiriki.desktop
 %{_iconsdir}/hicolor/*/apps/kiriki.png
 %_kde5_datadir/appdata/org.kde.kiriki.appdata.xml
+%_kde5_xmlguidir/kiriki/kirikiui.rc
+%_kde5_datadir/kiriki/images/dice-1.png
+%_kde5_datadir/kiriki/images/dice-2.png
+%_kde5_datadir/kiriki/images/dice-3.png
+%_kde5_datadir/kiriki/images/dice-4.png
+%_kde5_datadir/kiriki/images/dice-5.png
+%_kde5_datadir/kiriki/images/dice-6.png
+%_kde5_datadir/kiriki/images/dice-none.png
 %doc %{_docdir}/*/*/kiriki
 
 #------------------------------------------------------------------------------
