@@ -33,8 +33,7 @@ three times per single turn.
 %{_bindir}/kiriki
 %{_datadir}/applications/org.kde.kiriki.desktop
 %{_iconsdir}/hicolor/*/apps/kiriki.png
-%{_datadir}/kiriki
-%{_datadir}/kxmlgui5/kiriki
+%_kde5_datadir/appdata/org.kde.kiriki.appdata.xml
 %doc %{_docdir}/*/*/kiriki
 
 #------------------------------------------------------------------------------
