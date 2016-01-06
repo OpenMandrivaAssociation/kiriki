@@ -20,6 +20,7 @@ BuildRequires:	cmake(KF5KDEGames)
 BuildRequires:	cmake(KF5WidgetsAddons)
 BuildRequires:	cmake(KF5XmlGui)
 BuildRequires:	cmake(Qt5Widgets)
+BuildRequires:	cmake(KF5DocTools)
 
 %description
 Kiriki is an addictive and fun dice game, designed to be played by as
