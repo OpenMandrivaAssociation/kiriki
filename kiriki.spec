@@ -7,8 +7,6 @@ Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
 URL:		http://games.kde.org/game.php?game=kiriki
 Source:		http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
-BuildRequires:	cmake
-BuildRequires:	ninja
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5Config)
 BuildRequires:	cmake(KF5ConfigWidgets)
@@ -34,7 +32,7 @@ three times per single turn.
 %{_bindir}/kiriki
 %{_datadir}/applications/org.kde.kiriki.desktop
 %{_iconsdir}/hicolor/*/apps/kiriki.png
-%_kde5_datadir/appdata/org.kde.kiriki.appdata.xml
+%_kde5_datadir/metainfo/org.kde.kiriki.appdata.xml
 %_kde5_xmlguidir/kiriki/kirikiui.rc
 %_kde5_datadir/kiriki/images/dice-1.png
 %_kde5_datadir/kiriki/images/dice-2.png
