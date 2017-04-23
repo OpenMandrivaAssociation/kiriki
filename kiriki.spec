@@ -1,12 +1,12 @@
 Name:		kiriki
-Version:	16.12.2
+Version:	17.04.0
 Release:	1
 Epoch:		1
 Summary:	Yahtzee-like dice game
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
 URL:		http://games.kde.org/game.php?game=kiriki
-Source:		http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	http://download.kde.org/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5Config)
 BuildRequires:	cmake(KF5ConfigWidgets)
@@ -28,7 +28,7 @@ many as six players.
 Participants have to collect points by rolling five dice for up to
 three times per single turn.
 
-%files
+%files -f %{name}.lang
 %{_bindir}/kiriki
 %{_datadir}/applications/org.kde.kiriki.desktop
 %{_iconsdir}/hicolor/*/apps/kiriki.png
@@ -41,7 +41,6 @@ three times per single turn.
 %_kde5_datadir/kiriki/images/dice-5.png
 %_kde5_datadir/kiriki/images/dice-6.png
 %_kde5_datadir/kiriki/images/dice-none.png
-%doc %{_docdir}/*/*/kiriki
 
 #------------------------------------------------------------------------------
 
@@ -54,3 +53,4 @@ three times per single turn.
 
 %install
 %ninja_install -C build
+%find_lang %{name} --with-html
