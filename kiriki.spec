@@ -1,6 +1,6 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 70 ] && echo -n un; echo -n stable)
 Name:		kiriki
-Version:	 18.04.2
+Version:	18.04.2
 Release:	1
 Epoch:		1
 Summary:	Yahtzee-like dice game
@@ -18,9 +18,10 @@ BuildRequires:	cmake(KF5IconThemes)
 BuildRequires:	cmake(KF5KDEGames)
 BuildRequires:	cmake(KF5WidgetsAddons)
 BuildRequires:	cmake(KF5XmlGui)
-BuildRequires:	cmake(Qt5Widgets)
 BuildRequires:	cmake(KF5DocTools)
 BuildRequires:	cmake(KF5Crash)
+BuildRequires:	cmake(Qt5Widgets)
+BuildRequires:	cmake(Qt5PrintSupport)
 
 %description
 Kiriki is an addictive and fun dice game, designed to be played by as
