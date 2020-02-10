@@ -1,7 +1,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 70 ] && echo -n un; echo -n stable)
 Name:		kiriki
-Version:	19.12.1
-Release:	2
+Version:	19.12.2
+Release:	1
 Epoch:		1
 Summary:	Yahtzee-like dice game
 Group:		Graphical desktop/KDE
