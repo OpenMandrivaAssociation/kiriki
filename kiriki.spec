@@ -1,6 +1,6 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 70 ] && echo -n un; echo -n stable)
 Name:		kiriki
-Version:	20.12.3
+Version:	21.03.80
 Release:	1
 Epoch:		1
 Summary:	Yahtzee-like dice game
@@ -35,7 +35,6 @@ three times per single turn.
 %{_datadir}/applications/org.kde.kiriki.desktop
 %{_iconsdir}/hicolor/*/apps/kiriki.png
 %_kde5_datadir/metainfo/org.kde.kiriki.appdata.xml
-%_kde5_xmlguidir/kiriki/kirikiui.rc
 %_kde5_datadir/kiriki/images/dice-1.png
 %_kde5_datadir/kiriki/images/dice-2.png
 %_kde5_datadir/kiriki/images/dice-3.png
