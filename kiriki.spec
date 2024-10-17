@@ -6,7 +6,7 @@ Epoch:		1
 Summary:	Yahtzee-like dice game
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
-URL:		http://games.kde.org/game.php?game=kiriki
+URL:		https://games.kde.org/game.php?game=kiriki
 Source0:	http://download.kde.org/%{stable}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(KF5Config)
