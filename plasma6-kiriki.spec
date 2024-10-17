@@ -8,7 +8,7 @@ Release:	%{?git:0.%{git}.}1
 Summary:	Yahtzee-like dice game
 Group:		Graphical desktop/KDE
 License:	GPLv2 and LGPLv2 and GFDL
-URL:		http://games.kde.org/game.php?game=kiriki
+URL:		https://games.kde.org/game.php?game=kiriki
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/games/kiriki/-/archive/%{gitbranch}/kiriki-%{gitbranchd}.tar.bz2#/kiriki-%{git}.tar.bz2
 %else
